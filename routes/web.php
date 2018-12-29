@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/privacy', 'HomeController@privacy')->name('privacy');
+Route::get('/search/{searchKey}', 'HomeController@search');
 
 //Route::get('login/github', 'Auth\LoginController@redirectToProvider')->name('loginGit');
 //Route::get('login/github/callback', 'Auth\LoginController@handleProviderCallback');

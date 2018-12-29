@@ -65,17 +65,17 @@
                                     Forgot Your Password?
                                 </a>
                                 <p>
- <button class="loginBtn loginBtn--facebook">
- <a class="btn btn-link" href="{{ url('/login/facebook') }}"> Login with Facebook </a>
-</button>
+ 
+ <a class="btn btn-link" href="{{ url('/login/facebook') }}"><button class="loginBtn loginBtn--facebook"> Login with Facebook </button></a>
+
 <br/>
-<button class="loginBtn loginBtn--google">
-<a class="btn btn-link" href="{{ url('/login/google') }}">Login with Google</a>
-</button>
+
+<a class="btn btn-link" href="{{ url('/login/google') }}"><button class="loginBtn loginBtn--google">Login with Google</button></a>
+
 <br/>
-<button class="loginBtn loginBtn--github">
-<a class="btn btn-link" href="{{ url('/login/github') }}"> Login with Github</a>
-</button>
+
+<a class="btn btn-link" href="{{ url('/login/github') }}"><button class="loginBtn loginBtn--github"> Login with Github</button></a>
+
 </p>
                             </div>
                             
