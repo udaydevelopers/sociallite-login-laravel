@@ -31,11 +31,11 @@ class User extends Authenticatable
 
     public function searchableAs()
     {
-        return 'name';
+        return 'users_index';
     }
 
-    public function getScoutKey()
-    {
-        return $this->email;
-    }
+    // public function getScoutKey()
+    // {
+    //     return $this->email;
+    // }
 }

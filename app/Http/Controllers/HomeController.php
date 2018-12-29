@@ -32,10 +32,10 @@ class HomeController extends Controller
     {
         return view('privacy');
     }
-    public function search($searchkey)
-    {
-        $posts = Post::search($searchkey)->get();
-        return view('home', compact('posts'));
-    }
+    // public function search($searchkey)
+    // {
+    //     $posts = Post::search($searchkey)->get();
+    //     return view('search', compact('posts'));
+    // }
     
 }

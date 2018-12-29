@@ -12,11 +12,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-@if($posts)
-                    @foreach($posts as $post)
-                    <b>{{ $post->title }} </b><br/>
-                    <p>{{ $post->description }}</p><br/><br/>
-                    @endforeach @endif
+                    home page
                 </div>
                
             </div>
