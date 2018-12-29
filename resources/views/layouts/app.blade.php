@@ -42,6 +42,8 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
+                            <li><a href="{{ route('user-lists') }}">Users List</a></li>
+                            <li><a href="{{ route('post-lists') }}">Posts List</a></li>
                         @guest
                             <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li>
