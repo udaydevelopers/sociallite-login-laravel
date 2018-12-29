@@ -64,21 +64,21 @@
                                 <a class="btn btn-link" href="{{ route('password.request') }}">
                                     Forgot Your Password?
                                 </a>
-                                <p>
- 
- <a class="btn btn-link" href="{{ url('/login/facebook') }}"><button class="loginBtn loginBtn--facebook"> Login with Facebook </button></a>
 
-<br/>
 
-<a class="btn btn-link" href="{{ url('/login/google') }}"><button class="loginBtn loginBtn--google">Login with Google</button></a>
 
-<br/>
-
-<a class="btn btn-link" href="{{ url('/login/github') }}"><button class="loginBtn loginBtn--github"> Login with Github</button></a>
-
-</p>
                             </div>
-                            
+                            <div class="col-sm-12">
+                            <div class="col-sm-4">
+                            <a class="btn btn-link" href="{{ url('/login/facebook') }}"><button class="loginBtn loginBtn--facebook"> Login with Facebook </button></a>
+                            </div>
+                            <div class="col-sm-4">
+                            <a class="btn btn-link" href="{{ url('/login/google') }}"><button class="loginBtn loginBtn--google">Login with Google</button></a>
+                            </div>
+                            <div class="col-sm-4">
+                            <a class="btn btn-link" href="{{ url('/login/github') }}"><button class="loginBtn loginBtn--github btn-github"> Login with Github</button></a>
+                            </div>
+                            </div>
                         </div>
                     </form>
                 </div>
